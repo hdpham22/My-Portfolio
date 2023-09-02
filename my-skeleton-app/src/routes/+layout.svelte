@@ -1,12 +1,13 @@
 <script>
-	// The ordering of these imports is critical to your app working properly
-	import '@skeletonlabs/skeleton/themes/theme-hamlindigo.css';
-	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
-	import '@skeletonlabs/skeleton/styles/skeleton.css';
+
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
-	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Drawer, getDrawerStore, initializeStores } from '@skeletonlabs/skeleton';
 	import Navigation from '../lib/components/Navigation.svelte';
+
+	initializeStores();
+
+	const drawerStore = getDrawerStore();
 
 	function drawerOpen() {
 		drawerStore.open()
@@ -17,8 +18,11 @@
 	<Navigation />
 </Drawer>
 
-<AppShell slotSidebarLeft="w-0 md:w-52 p-4">
-	<svelte:fragment slot="header">
+<AppShell 
+class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0 " 
+slotSidebarLeft="w-0 md:w-72 p-10 flex flex-col justify-between"
+>
+	<!-- <svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<button class="md:hidden btn btn-sm mr-4" on:click={drawerOpen}>
@@ -30,18 +34,27 @@
 						</svg>
 					</span>
 				</button>
-				<strong class="md:hidden">Hieu Pham</strong>
 			</svelte:fragment>
+			<strong class="md:hidden">Hieu Pham</strong>
+
 			<svelte:fragment slot="trail">
-				
+
 			</svelte:fragment>
 			<svelte:fragment slot="headline">
-				<strong class="md:visible text-2xl">Hieu Pham</strong>
+				<strong class="hidden md:block text-2xl">Hieu Pham</strong>
 			</svelte:fragment>
 		</AppBar>		
-	</svelte:fragment>
+	</svelte:fragment> -->
 	<svelte:fragment slot="sidebarLeft">
+		<strong class="text-4xl">Hieu Pham</strong>
+		<p class="text-xl">Computer Science @ UCSD</p>
 		<Navigation />
+		<ul class="flex">
+			<li class="mr-4">(icon)</li>
+			<li class="mr-4">(icon)</li>
+			<li class="mr-4">(icon)</li>
+			<li class="mr-4">(icon)</li>
+		</ul>
 	</svelte:fragment>
 	<!-- (sidebarRight) -->
 	<!-- (pageHeader) -->
@@ -49,7 +62,4 @@
 	<div class="container p-10 mx-auto">
 		<slot />
 	</div>
-	<!-- ---- / ---- -->
-	<!-- (pageFooter) -->
-	<svelte:fragment slot="footer">Footer</svelte:fragment>
 </AppShell>
