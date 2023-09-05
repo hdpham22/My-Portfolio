@@ -18,7 +18,7 @@ export default {
 		skeleton({
 			themes: {
 				// Register each theme within this array:
-				preset: [ "skeleton", "modern", "crimson" ] 
+				preset: [ "skeleton", "modern", "crimson", 'wintry' ] 
 			}
 		})
 	]
