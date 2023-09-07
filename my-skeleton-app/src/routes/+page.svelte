@@ -24,7 +24,7 @@
 </div>
 
 <div class="container h-full mx-auto flex flex-col">
-	<h3 class="my-3 h3" id="experience"><strong>Experience:</strong></h3>
+	<h3 class="my-3 h3 text-primary-500" id="experience"><strong>Experience:</strong></h3>
 
 	<a
 		href="https://www.plexium.com/"
@@ -50,6 +50,7 @@
 				<span>Svelte</span>
 				<span>Django</span>
 				<span>Rest API</span>
+				<span>Tailwind CSS</span>
 				<span>PostgreSQL</span>
 				<span>JavaScript</span>
 				<span>Python</span>
@@ -57,7 +58,7 @@
 		</div>
 	</a>
 
-	<h3 class="my-3 h3"><strong>Projects:</strong></h3>
+	<h3 class="my-3 h3 text-primary-500"><strong>Projects:</strong></h3>
 
 	<a href="/" class="card card-hover variant-soft-secondary my-3">
 		<header class="card-header">
@@ -73,8 +74,14 @@
 	</a>
 
 	<a href="/" class="card card-hover variant-soft-secondary my-3">
-		<header class="card-header">(header)</header>
+		<header class="card-header">
+			<strong>Noodles Horoscope Website</strong>
+		</header>
 		<section class="p-4">(content)</section>
-		<footer class="card-footer">(footer)</footer>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>HTML</span>
+			<span>CSS</span>
+			<span>JavaScript</span>
+		</footer>
 	</a>
 </div>
