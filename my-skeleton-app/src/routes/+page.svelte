@@ -33,19 +33,17 @@
 		class="card card-hover my-3 variant-soft-secondary flex flex-row"
 	>
 		<div>
-		</div>
-		<div>
-			<header class="p-4">
+			<header class="card-header flex justify-between">
 				<strong>Software Engineering Intern - Plexium</strong>
 				<p>Summer 2023</p>
-				<p>
-					Developed key features on Plexium's technology pipeline, including
-					KPI tables and Dashboards measuring performance metrics. Maintained
-					and refactored backend unit tests, improving overall test environment
-					runtime and expanding coverage metrics. Learned how to design shippable code in 
-					an Agile team.
-				</p>
 			</header>
+			<section class="p-4">
+				Developed key features on Plexium's technology pipeline, including
+				KPI tables and Dashboards measuring performance metrics. Maintained
+				and refactored backend unit tests, improving overall test environment
+				runtime and expanding coverage metrics. Learned how to design shippable code in 
+				an Agile team.
+			</section>
 			<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
 				<span>Svelte</span>
 				<span>Django</span>
@@ -64,7 +62,14 @@
 		<header class="card-header">
 			<strong>This Portfolio!</strong> 
 		</header>
-		<section class="p-4">(content)</section>
+		<section class="p-4">
+			This Portfolio itself is one of my many passion projects, showcasing
+			my progression in front-end development and deployment. The website is built 
+			off of Svelte and styled with Tailwind. My UI toolkit of choice is 
+			<a class="font-bold hover:text-secondary-500" target="_blank"
+			rel="noopener noreferrer" href="https://www.skeleton.dev/">Skeleton UI</a>, 
+			which gives me flexible stylistic control over my components and theme.
+		</section>
 		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
 			<span>Svelte</span>
 			<span>Skeleton UI</span>
@@ -74,14 +79,50 @@
 	</a>
 
 	<a href="/" class="card card-hover variant-soft-secondary my-3">
-		<header class="card-header">
-			<strong>Noodles Horoscope Website</strong>
+		<header class="card-header flex justify-between">
+			<strong>Noodles Horoscope Website - Project Lead</strong>
+			<p>Spring 2023</p>
 		</header>
-		<section class="p-4">(content)</section>
+		<section class="p-4">
+			Worked in an Agile team of 9 to develop a noodle-themed horoscope generating website where 
+			users can receive daily fortunes. Led the team through weekly sprints and daily stand-ups,
+			ensuring efficient collaboration and progress tracking.
+		</section>
 		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
 			<span>HTML</span>
 			<span>CSS</span>
 			<span>JavaScript</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Discord Bot (Fat Bot)</strong>
+			<p>Winter 2023</p>
+		</header>
+		<section class="p-4">
+
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>APIs</span>
+			<span>Discord.js</span>
+			<span>Node.js</span>
+			<span>JavaScript</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Huffman File Compression</strong>
+			<p>Winter 2023</p>
+		</header>
+		<section class="p-4">
+
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>C++</span>
+			<span>Data Structures</span>
+			<span>Algorithms</span>
 		</footer>
 	</a>
 </div>
