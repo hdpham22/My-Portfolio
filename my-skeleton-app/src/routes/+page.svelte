@@ -1,9 +1,9 @@
 <script>
-	export let about_me;
+
 </script>
 
 <div>
-	<div id="about_me" bind:this={about_me}>
+	<div id="about_me">
 		<strong class="text-primary-500">Who am I?:</strong> Right now I'm a student at UCSD studying for my B.S in Computer Science.
 		My career is driven by a genuine curiosity in everything Programming and Software Engineering. My
 		experiece consists of multiple team and personal projects as well as a Software Engineering internship
