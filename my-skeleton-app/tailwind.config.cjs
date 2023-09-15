@@ -12,7 +12,11 @@ export default {
 		)
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				'rubik': ['Rubik', 'sans-serif']
+			},
+		},
 	},
 	plugins: [
 		skeleton({
