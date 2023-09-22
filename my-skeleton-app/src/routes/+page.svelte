@@ -108,7 +108,11 @@
 			<strong>Discord Bot (Fat Bot)</strong>
 			<p>Winter 2023</p>
 		</header>
-		<section class="p-4" />
+		<section class="p-4">
+			A small passion project of mine where I developed a moderator bot for discord servers in
+			JavaScript. The bot would monitor text channels for any sort of profanity or hate speech and
+			administer consequences if guidelines were violated.
+		</section>
 		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
 			<span>APIs</span>
 			<span>Discord.js</span>
@@ -122,11 +126,32 @@
 			<strong>Huffman File Compression</strong>
 			<p>Winter 2023</p>
 		</header>
-		<section class="p-4" />
+		<section class="p-4">
+			A small UCSD project where I designed a C++ algorithm to compress text files into binary code
+			using Huffman Encoding. The algorithm was capable of both compressing and uncompressing files
+			without sacrificing any significant information.
+		</section>
 		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
 			<span>C++</span>
 			<span>Data Structures</span>
 			<span>Algorithms</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Momental Web Application</strong>
+			<p>Spring 2022</p>
+		</header>
+		<section class="p-4">
+			A group project with 6 other developers where we built a social media esque website that 
+			supported a live feed of audio recordings.
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>React</span>
+			<span>MongoDB</span>
+			<span>Express</span>
+			<span>Node.js</span>
 		</footer>
 	</a>
 </div>

@@ -1,6 +1,7 @@
 <script>
+    import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
     import Fa from 'svelte-fa';
-	import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+	import { faGithub, faLinkedin, faJs, faPython, faHtml5, faCss3,  } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <div>
@@ -9,7 +10,25 @@
     </h1>
     <h3 class="h4">Computer Science @ UCSD</h3> 
 
-    <h3 class="h2">Skills</h3>
+    <!-- <h3 class="h2">Skills</h3> -->
+    <Accordion>
+        <AccordionItem>
+            <svelte:fragment slot="summary">Languages</svelte:fragment>
+            <svelte:fragment slot="content">
+                <div class="flex flex-row text-4xl space-x-3">
+                    <Fa icon={faJs}/>
+                    <Fa icon={faPython}/>
+                    <Fa icon={faHtml5}/>
+                    <Fa icon={faCss3}/>
+                </div>
+            </svelte:fragment>
+        </AccordionItem>
+        <AccordionItem>
+            <svelte:fragment slot="summary">Frameworks</svelte:fragment>
+            <svelte:fragment slot="content">(content)</svelte:fragment>
+        </AccordionItem>
+        <!-- ... -->
+    </Accordion>
 
 </div>
 
