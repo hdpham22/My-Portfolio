@@ -8,7 +8,7 @@
     <h1 class="h1 px-4">
         <span class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">Hieu Pham</span>
     </h1>
-    <h3 class="h3 px-4">Computer Science @ UCSD</h3> 
+    <h3 class="h3 px-4">Computer Science student @ UCSD</h3> 
 
     <!-- <h3 class="h2">Skills</h3> -->
     <Accordion>

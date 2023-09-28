@@ -11,12 +11,12 @@
 		and experience by becoming a full time Software Engineer.
 	</div>
 
-	<div>
+	<!-- <div>
 		<strong class="text-primary-500">Outside of my career:</strong> I love being involved in the student
 		orgs I'm a part of. Currently I serve as the Corresponding Secretary of Theta Tau of UCSD and Membership
 		Outreach for Chinese American Student Association. My hobbies include, Snowboarding, Weight Lifting,
 		and playing video games.
-	</div>
+	</div> -->
 </div>
 
 <div class="container h-full mx-auto flex flex-col">
