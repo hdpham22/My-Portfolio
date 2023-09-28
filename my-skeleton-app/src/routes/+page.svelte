@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div>
 	<div id="about_me">
 		<strong class="text-primary-500">Who am I?:</strong> Right now I'm a student at UCSD studying for
@@ -105,7 +102,7 @@
 
 	<a href="/" class="card card-hover variant-soft-secondary my-3">
 		<header class="card-header flex justify-between">
-			<strong>Discord Bot (Fat Bot)</strong>
+			<strong>Discord Bot - Fat Bot</strong>
 			<p>Winter 2023</p>
 		</header>
 		<section class="p-4">
@@ -144,7 +141,7 @@
 			<p>Spring 2022</p>
 		</header>
 		<section class="p-4">
-			A group project with 6 other developers where we built a social media esque website that 
+			A group project with 6 other developers where we built a social media website that 
 			supported a live feed of audio recordings.
 		</section>
 		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
@@ -153,5 +150,33 @@
 			<span>Express</span>
 			<span>Node.js</span>
 		</footer>
+	</a>
+
+	<h3 class="my-3 h3 text-primary-500" id="experience"><strong>Involvement:</strong></h3>
+
+	<a href="https://www.ucsdthetatau.com/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Theta Tau - Corresponding Secretary</strong>
+			<p>2023-2024</p>
+		</header>
+		<section class="px-4">
+			Pre-Professional Engineering Society
+		</section>
+		<section class="p-4">
+			Serve as the primary point of contact between alumni, Nationals, and other chapters.
+			Organize external events with other student clubs on campus.
+		</section>
+	</a>
+
+	<a href="https://www.ucsdthetatau.com/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Chinese American Student Association - Membership Outreach</strong>
+			<p>2023-2024</p>
+		</header>
+		<section class="p-4">
+			Used data to inform ongoing improvements and adjustments to outreach strategies 
+			and activities. Facilitated the outreach process by actively promoting and organizing 
+			events and activities to students, faculty, and staff.
+		</section>
 	</a>
 </div>
