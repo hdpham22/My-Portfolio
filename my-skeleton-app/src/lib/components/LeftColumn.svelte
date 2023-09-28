@@ -16,13 +16,13 @@
             <svelte:fragment slot="summary">Languages</svelte:fragment>
             <svelte:fragment slot="content">
                 <div class="[&>*]:h-12 [&>*]:m-1 flex flex-wrap max-w-xs">
-                    <img src="src/images/js.png" alt="">
-                    <img src="src/images/css.png" alt="">
-                    <img src="src/images/html.png" alt="">
-                    <img src="src/images/python.png" alt="">
-                    <img src="src/images/C.png" alt="">
-                    <img src="src/images/cpp.png" alt="">
-                    <img src="src/images/java.png" alt="">
+                    <img src="js.png" alt="">
+                    <img src="css.png" alt="">
+                    <img src="html.png" alt="">
+                    <img src="python.png" alt="">
+                    <img src="C.png" alt="">
+                    <img src="cpp.png" alt="">
+                    <img src="java.png" alt="">
                 </div>
             </svelte:fragment>
         </AccordionItem>
@@ -30,10 +30,10 @@
             <svelte:fragment slot="summary">Frameworks/Tools</svelte:fragment>
             <svelte:fragment slot="content">
                 <div class="[&>*]:h-12 [&>*]:m-1 flex flex-wrap max-w-xs">
-                <img src="src/images/svelte.png" alt="">
-                <img src="src/images/react.png" alt="">
-                <img src="src/images/dj.png" alt="">
-                <img src="src/images/tw.png" alt="">
+                <img src="svelte.png" alt="">
+                <img src="react.png" alt="">
+                <img src="dj.png" alt="">
+                <img src="tw.png" alt="">
                 </div>
             </svelte:fragment>
         </AccordionItem>
