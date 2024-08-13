@@ -1,14 +1,13 @@
 <div>
 	<div id="about_me">
 		<strong class="text-primary-500">Who am I?:</strong> Right now I'm a student at UCSD studying for
-		my B.S in Computer Science. My career is driven by a genuine curiosity in everything Programming
-		and Software Engineering. My experiece consists of multiple team and personal projects as well as
-		a Software Engineering internship where I worked with Full-Stack technologies.
+		my B.S in Computer Science and Engineering. My career is driven by a genuine curiosity in Programming
+		and Software Engineering. My experience consists of multiple team and personal projects as well as
+		Software Engineering internships.
 	</div>
 	<div class="my-3">
-		<strong class="text-primary-500">What's the goal?:</strong> I'm currently looking for 2024 Software
-		Engineering internships over the academic year or Summer. After I graduate, I want to expand my knowledge
-		and experience by becoming a full time Software Engineer.
+		<strong class="text-primary-500">What's the goal?:</strong> I'm currently looking for full time Software
+		Engineering positions starting after I graduate in April 2025.
 	</div>
 
 	<!-- <div>
@@ -22,6 +21,33 @@
 <div class="container h-full mx-auto flex flex-col">
 	<h3 class="my-3 h3 text-primary-500" id="experience"><strong>Experience:</strong></h3>
 
+	<a
+		href="https://www.cubic.com/"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="card card-hover my-3 variant-soft-secondary flex flex-row"
+	>
+		<div>
+			<header class="card-header flex justify-between">
+				<strong>Software Engineering Intern - Cubic Corporation</strong>
+				<p>Summer 2024</p>
+			</header>
+			<section class="p-4">
+				Developed, optimized, and debugged C++ tools for simulating and monitoring 
+				network traffic for an aircraft training environment. Automated configuration 
+				processes and improved multithreaded code synchronization. Rebuilt a legacy 
+				AngularJS web GUI using Next.js.
+			</section>
+			<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+				<span>NextJS</span>
+				<span>Multithreading</span>
+				<span>Networking</span>
+				<span>C/C++</span>
+				<span>JavaScript</span>
+			</footer>
+		</div>
+	</a>
+	
 	<a
 		href="https://www.plexium.com/"
 		target="_blank"

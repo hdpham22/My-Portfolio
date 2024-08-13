@@ -36,6 +36,7 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^6.4.2",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"my-skeleton-app": "file:",
 		"svelte-fa": "^3.0.4"
 	}
 }
