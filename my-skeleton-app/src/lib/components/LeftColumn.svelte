@@ -33,7 +33,8 @@
                 <img src="svelte.png" alt="">
                 <img src="react.png" alt="">
                 <img src="dj.png" alt="">
-                <img src="tw.png" alt="">
+                <img src="nextjs.png" alt="">
+                <img src="postgresql.png" alt="">
                 </div>
             </svelte:fragment>
         </AccordionItem>

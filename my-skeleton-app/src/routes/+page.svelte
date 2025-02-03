@@ -1,14 +1,14 @@
 <div>
-	<div id="about_me">
+	<!-- <div id="about_me">
 		<strong class="text-primary-500">Who am I?:</strong> Right now I'm a student at UCSD studying for
 		my B.S in Computer Science and Engineering. My career is driven by a genuine curiosity in Programming
 		and Software Engineering. My experience consists of multiple team and personal projects as well as
 		Software Engineering internships.
-	</div>
-	<div class="my-3">
+	</div> -->
+	<!-- <div class="my-3">
 		<strong class="text-primary-500">What's the goal?:</strong> I'm currently looking for full time Software
 		Engineering positions starting after I graduate in April 2025.
-	</div>
+	</div> -->
 
 	<!-- <div>
 		<strong class="text-primary-500">Outside of my career:</strong> I love being involved in the student
@@ -29,8 +29,8 @@
 	>
 		<div>
 			<header class="card-header flex justify-between">
-				<strong>Software Engineering Intern - Cubic Corporation</strong>
-				<p>Summer 2024</p>
+				<strong>Software Engineer Intern - Cubic Corporation</strong>
+				<p>Present</p>
 			</header>
 			<section class="p-4">
 				Developed, optimized, and debugged C++ tools for simulating and monitoring 
@@ -44,6 +44,7 @@
 				<span>Networking</span>
 				<span>C/C++</span>
 				<span>JavaScript</span>
+				<span>Java</span>
 			</footer>
 		</div>
 	</a>
@@ -56,7 +57,7 @@
 	>
 		<div>
 			<header class="card-header flex justify-between">
-				<strong>Software Engineering Intern - Plexium</strong>
+				<strong>Full Stack Software Engineer Intern - Plexium</strong>
 				<p>Summer 2023</p>
 			</header>
 			<section class="p-4">
@@ -99,6 +100,61 @@
 			<span>Skeleton UI</span>
 			<span>Tailwind CSS</span>
 			<span>JavaScript</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+			<strong>Library Room Booking Management System</strong>
+			<p>Present</p>
+		</header>
+		<section class="p-4">
+			Developed a full-stack room booking management system using Express, React, 
+			and PostgreSQL, integrating a multithreaded Selenium based automation script 
+			for real-time booking confirmations, secure authentication, push notifications 
+			for updates and reminders, and mobile-optimized calendar and list views for scheduling.
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>Python</span>
+			<span>Selenium</span>
+			<span>PostgreSQL</span>
+			<span>Express</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+
+			<strong>Vehicle Type Image Classifier</strong>
+			<p>Fall 2024</p>
+		</header>
+		<section class="p-4">
+			Constructed a machine learning pipeline to classify vehicle types 
+			(Car, Motorcycle, Bus, Truck) from Kaggle image data, attaining a 
+			98.5% accuracy using an optimized SVM model with hyperparameter tuning.
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>Machine Learning</span>
+			<span>Python</span>
+			<span>scikit-learn</span>
+		</footer>
+	</a>
+
+	<a href="/" class="card card-hover variant-soft-secondary my-3">
+		<header class="card-header flex justify-between">
+
+			<strong>Nachos Operating System</strong>
+			<p>Fall 2023</p>
+		</header>
+		<section class="p-4">
+			Implemented key OS features such as threading, virtual memory management, 
+			and a user process and multiprogramming kernel using Java and Linux on 
+			Nachos instructional OS.
+		</section>
+		<footer class="card-footer [&>*]:badge [&>*]:variant-filled-secondary">
+			<span>Java</span>
+			<span>C</span>
+			<span>Linux</span>
 		</footer>
 	</a>
 
@@ -183,7 +239,7 @@
 	<a href="https://www.ucsdthetatau.com/" class="card card-hover variant-soft-secondary my-3">
 		<header class="card-header flex justify-between">
 			<strong>Theta Tau - Corresponding Secretary</strong>
-			<p>2023-2024</p>
+			<p>2023-Present</p>
 		</header>
 		<section class="px-4">
 			Pre-Professional Engineering Society
@@ -197,7 +253,7 @@
 	<a href="https://www.ucsdthetatau.com/" class="card card-hover variant-soft-secondary my-3">
 		<header class="card-header flex justify-between">
 			<strong>Chinese American Student Association - Membership Outreach</strong>
-			<p>2023-2024</p>
+			<p>2023-Present</p>
 		</header>
 		<section class="p-4">
 			Used data to inform ongoing improvements and adjustments to outreach strategies 
